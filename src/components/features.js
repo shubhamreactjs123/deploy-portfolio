@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import Chart from 'chart.js/auto';
-import { Bar } from 'react-chartjs-2';
+// import { Bar } from 'react-chartjs-2';
 
 const Features = () => {
-    console.log(2/0)
+    // console.log(2/0)
     // const labels = ["HTML", "CSS", "Java Script", "React JS", "Redux", "Express JS", "Node JS"];
     const experienceDetails = [
         {
@@ -260,11 +260,11 @@ const Features = () => {
                     </div>
                     <div className='skills-graph-container'>
                         {
-                            !tabular &&
-                            <Bar
-                                data={chartData}
-                                options={options}
-                            />
+                            // !tabular &&
+                            // <Bar
+                            //     data={chartData}
+                            //     options={options}
+                            // />
                         }
                         {
                             tabular &&

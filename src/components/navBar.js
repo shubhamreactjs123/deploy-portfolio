@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import sicon from "./../assets/shubham_icon.png";
 
 const NavBar = () => {
     const navigate = useNavigate();
@@ -17,7 +18,7 @@ const NavBar = () => {
                 <img style={{
                     height: "24px",
                     backdropFilter: "blur(5px)"
-                }} src="shubham_icon.png" alt="shubham"/>
+                }} src={sicon} alt="shubham"/>
                 HUBHAM
             </div>
             <div className="right-nav">
